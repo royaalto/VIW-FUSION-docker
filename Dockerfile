@@ -20,7 +20,7 @@ RUN   if [ "x$(nproc)" = "x1" ] ; then export USE_PROC=1 ; \
       ros-${ROS_DISTRO}-message-filters \
       ros-${ROS_DISTRO}-tf && \
       rm -rf /var/lib/apt/lists/* && \
-      mkdir -p $CATKIN_WS/src/VINS-Fusion/
+      mkdir -p $CATKIN_WS/src/VIW-Fusion/
 
 # 克隆 Sophus 仓库
 RUN apt-get update
