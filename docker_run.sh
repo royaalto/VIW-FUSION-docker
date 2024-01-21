@@ -4,8 +4,8 @@ xhost +local:docker
 
 default_name="wiv-fusion"
 container_name=`docker container ls -a | grep $default_name | awk '{print $NF}'`
-VINS_FUSION_DIR ="/home/roy/softwares/wheel-vins/VIW-Fusion/"
-KITTI_DATASET = "/home/roy/softwares/wheel-vins/bags/"
+VINS_FUSION_DIR="/home/roy/softwares/wheel-vins/VIW-Fusion/"
+KITTI_DATASET="/home/roy/softwares/wheel-vins/bags/"
 if [ "$container_name" != "" ]; then
   echo "enter exit container: $container_name"
   docker exec -it $container_name bash

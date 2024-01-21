@@ -81,7 +81,7 @@ RUN mkdir build && cd build && cmake .. && make install
 
 
 # Copy VINS-Fusion
-COPY ./ $CATKIN_WS/src/VINS-Fusion/
+COPY ./ $CATKIN_WS/src/VIW-Fusion/
 # use the following line if you only have this dockerfile
 # RUN git clone https://github.com/HKUST-Aerial-Robotics/VINS-Fusion.git
 

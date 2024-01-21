@@ -12,3 +12,4 @@ if [ $? -eq 0 ]; then
 else
     echo "Failed to build Docker image."
 fi
+
