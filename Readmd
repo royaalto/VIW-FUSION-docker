@@ -1,0 +1,4 @@
+1.git clone viw
+2.把这个文件夹放到viw里面的与docker平行的文件夹下
+3../docker_build_melodic.sh
+4.运行的时候在外面开roscoe，在外面开rosbag plan, 运行./docker_run.sh
